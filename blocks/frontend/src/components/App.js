@@ -37,7 +37,7 @@ class App extends Component {
         {this.state.data.map(contact => {
           return (
             <li key={contact.id}>
-              {contact.name} - {contact.email}
+              {contact.name}
             </li>
           );
         })}
